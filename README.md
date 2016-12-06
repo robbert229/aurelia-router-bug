@@ -21,3 +21,7 @@ The log says that the route was not found.
             at AppRouter.loadUrl (https://jdanyow.github.io/rjs-bundle/bundles/aurelia.js:16948:19)
             at BrowserHistory._loadUrl (https://jdanyow.github.io/rjs-bundle/bundles/aurelia.js:14456:55)
             at BrowserHistory._checkUrl (https://jdanyow.github.io/rjs-bundle/bundles/aurelia.js:14449:14)
+
+# Video
+
+![TLDR](tldr.gif)
