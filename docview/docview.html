@@ -1,6 +1,8 @@
 <template>
   <h3>Docview</h3>
-  <a type="button" class="btn btn-default" route-href="route: docview_edit;">Edit</a>
+  <a type="button" class="btn btn-default" route-href="route: docview_edit;">Broken Edit</a>
+  <a type="button" class="btn btn-default" route-href="route: docview_details;">Broken Details</a>
+  
   <li repeat.for="row of router.navigation" class="${row.isActive ? 'active' : ''}">
     <a data-toggle="collapse" data-target="#skeleton-navigation-navbar-collapse.in" href.bind="row.href">${row.title}</a>
   </li>

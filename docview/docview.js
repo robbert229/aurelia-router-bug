@@ -10,14 +10,15 @@ export class Docview {
         route: 'details',
         name: 'docview_details',
         moduleId: './details',
-        title: 'View Document'
+        title: 'Details',
+        nav: true
       },
       {
         route: 'edit',
         name: 'docview_edit',
         moduleId: './edit',
         nav: true,
-        title: 'Edit Document'
+        title: 'Edit'
       },
     ]);
 
